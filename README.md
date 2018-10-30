@@ -2,5 +2,5 @@
 baby by the sea
 
 # command to run 
-npm install
+npm install /n
 node server.js
