@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'b'; /*a name to be used later*/
+  src: url('../fonts/a.otf'); /*URL to font*/
+}
+
+@font-face {
+  font-family: 'eBold'; /*a name to be used later*/
+  src: url('../fonts/ExtraBold.otf'); /*URL to font*/
+}
