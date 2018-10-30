@@ -101,6 +101,15 @@ var Index = function() {
 
     var handleAOS = function() {
         AOS.init();
+        $(window).on('resize', function () { AOS.refresh(); });
+        $(window).on('load', function() { setTimeout(AOS.refreshHard, 150); });
+
+        $(document).ready(function () {
+            AOS.init({ 
+            startEvent: 'load', 
+            easing: 'ease-in-out-quart', 
+            duration: 600,  once: false });            
+        });
     }
 
     var handleMoving= function() {

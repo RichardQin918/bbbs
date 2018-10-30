@@ -5,7 +5,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-image:url("/img/bg_new.png");
+  background-image:url("/img/bg_new.jpg");
   background-size: cover;
   // background-attachment:fixed;
   background-repeat: no-repeat;
@@ -487,14 +487,14 @@ fieldset[disabled] .btn-theme {
       width: 21px;
       height: 1px;
       display: inline-block;
-      background: #fff;
+      background: #000;
       transition-duration: 300ms;
       transition-property: all;
       transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
       &:before, &:after {
         position: absolute;
         left: 0;
-        background: #fff;
+        background: #000;
         content: " ";
       }
       &:before {
@@ -507,7 +507,7 @@ fieldset[disabled] .btn-theme {
         transition-duration: 300ms;
         transition-property: all;
         transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-        background: #fff;
+        background: #000;
       }
       &:after {
         width: 16px;
@@ -519,18 +519,18 @@ fieldset[disabled] .btn-theme {
         transition-duration: 300ms;
         transition-property: all;
         transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-        background: #fff;
+        background: #000;
       }
     }
     &:hover .toggle-icon {
-      background: #fff;
+      background: #000;
       transition-duration: 300ms;
       transition-property: all;
       transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
       &:before, &:after {
         width: 21px;
         height: 1px;
-        background: #fff;
+        background: #000;
         transition-duration: 300ms;
         transition-property: all;
         transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -747,22 +747,23 @@ fieldset[disabled] .btn-theme {
 
 #conch {
   position: absolute;
-  max-width: 6%;
-  right: 16.5%;
+  max-width: 26%;
+  right: 1%;
+  top: 257%;
 }
 
 #baby {
   position: absolute;
   max-width: 10%;
-  right: 24%;
-  top: 30%;
+  right: 22%;
+  top: 20%;
 }
 
 #seaweed {
   position: absolute;
   max-width: 15%;
   left: 5%;
-  top: 313%;
+  top: 328%;
 }
 
 /* Page On Scroll */
@@ -770,6 +771,8 @@ fieldset[disabled] .btn-theme {
 
 .page-on-scroll .header {
   .navbar {
+    background-color: #fff;
+    opacity: .8;
     transition-duration: 300ms;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -800,7 +803,8 @@ fieldset[disabled] .btn-theme {
 @media (max-width: 991px) {
   .page-on-scroll .header {
     .navbar {
-      background: transparent;
+      background: #fff;
+      opacity: .8;
       transition-duration: 300ms;
       transition-property: all;
       transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -833,6 +837,13 @@ fieldset[disabled] .btn-theme {
 ------------------------------------------------------------------*/
 .about {
   line-height: 1.8;
+}
+
+.benefit {
+  .row {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 .service {
