@@ -101,6 +101,15 @@ var Index = function() {
 
     var handleAOS = function() {
         AOS.init();
+        $(window).on('resize', function () { AOS.refresh(); });
+        $(window).on('load', function() { setTimeout(AOS.refreshHard, 150); });
+
+        $(document).ready(function () {
+            AOS.init({ 
+            startEvent: 'load', 
+            easing: 'ease-in-out-quart', 
+            duration: 600,  once: false });            
+        });
     }
 
     var handleMoving= function() {
@@ -109,7 +118,7 @@ var Index = function() {
             renderer: 'svg',
             loop: true,
             autoplay: true,
-            path: 'js/animation/fish/data.json'
+            path: 'public/js/animation/fish/data.json'
         })
 
         var conch = bodymovin.loadAnimation({
@@ -117,7 +126,7 @@ var Index = function() {
             renderer: 'svg',
             loop: true,
             autoplay: true,
-            path: 'js/animation/conch/data.json'
+            path: 'public/js/animation/conch/data.json'
         })
 
         var baby = bodymovin.loadAnimation({
@@ -125,8 +134,8 @@ var Index = function() {
             renderer: 'svg',
             loop: true,
             autoplay: true,
-            path: 'js/animation/baby/data.json',
-            assetsPath: 'img/baby/'
+            path: 'public/js/animation/baby/data.json',
+            assetsPath: 'public/img/baby/'
         })
 
         var seaweed = bodymovin.loadAnimation({
@@ -134,8 +143,8 @@ var Index = function() {
             renderer: 'svg',
             loop: true,
             autoplay: true,
-            path: 'js/animation/seaweed/data.json',
-            assetsPath: 'img/seaweed/'
+            path: 'public/js/animation/seaweed/data.json'
+            // assetsPath: 'public/img/seaweed/'
         })
     }
     
@@ -156,5 +165,6 @@ var Index = function() {
 
 $(document).ready(function() {
     Index.init();
+    console.log('running!')
 
 });
