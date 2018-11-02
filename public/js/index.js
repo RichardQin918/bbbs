@@ -112,7 +112,7 @@ var Index = function() {
         });
     }
 
-    var handleMoving= function() {
+    var handleMoving = function() {
         var fish = bodymovin.loadAnimation({
             container: document.getElementById('fish-top'),
             renderer: 'svg',
@@ -138,14 +138,18 @@ var Index = function() {
             assetsPath: 'public/img/baby/'
         })
 
-        var seaweed = bodymovin.loadAnimation({
-            container: document.getElementById('seaweed'),
-            renderer: 'svg',
-            loop: true,
-            autoplay: true,
-            path: 'public/js/animation/seaweed/data.json'
-            // assetsPath: 'public/img/seaweed/'
-        })
+        // var seaweed = bodymovin.loadAnimation({
+        //     container: document.getElementById('seaweed'),
+        //     renderer: 'svg',
+        //     loop: true,
+        //     autoplay: true,
+        //     path: 'public/js/animation/seaweed/seaweed3.json'
+        //     // assetsPath: 'public/img/seaweed/'
+        // })
+    }
+
+    var handleEmail = function() {
+
     }
     
     return {

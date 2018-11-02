@@ -10,7 +10,8 @@ html, body {
   background-repeat: no-repeat;
   overflow-x: hidden;
   max-width: 100%;
-  -webkit-font-smoothing: antialiased; }
+  outline: none;
+}
 
 p {
   font-size: 17px;
@@ -616,8 +617,13 @@ fieldset[disabled] .btn-theme {
 #seaweed {
   position: absolute;
   max-width: 15%;
-  left: 5%;
-  top: 328%; }
+  left: 10%;
+  top: 310%; }
+
+  #seaweed_content {
+    width: 100%;
+    position: relative;
+  }
 
 /* Page On Scroll */
 /* full screen */
