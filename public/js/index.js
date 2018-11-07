@@ -169,6 +169,6 @@ var Index = function() {
 
 $(document).ready(function() {
     Index.init();
-    console.log('running!')
+    // console.log('running!')
 
 });
