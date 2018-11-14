@@ -784,6 +784,26 @@ fieldset[disabled] .btn-theme {
   display: none;
   font-size: 80px; }
 
+.banner .banner-head {
+  text-transform: uppercase;
+  text-align: left;
+  position: relative;
+  font-size: 90px;
+  top: 120px;
+  display: block;
+  color: #69d0fc;
+  height: 280px;
+  width: 70%; }
+.banner .banner-btn {
+  position: relative;
+  color: #fff;
+  top: 60px; }
+  .banner .banner-btn:hover {
+    color: #69d0fc;
+    background-color: #fff;
+    transition: all .5s ease;
+    border: solid thin #69d0fc; }
+
 @media (max-width: 767px) {
   #title-full {
     display: none; }
