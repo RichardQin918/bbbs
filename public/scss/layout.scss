@@ -19,11 +19,20 @@ body {
   font-family: 'b';
   line-height: 1.5;
   overflow-x: hidden;
-  background-image: url("../../public/img/bg_new.jpg");
+  background-color: #fff;
   // height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  font-size: 20px !important;
+}
+
+.top {
+  background-image: url("../../public/img/bg/top.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 900px;
+
 }
 
 p {
@@ -499,12 +508,12 @@ fieldset[disabled] .btn-theme {
     &:last-child .nav-item-child {
       padding-right: 0;
     }
-    .nav-item-hover.active:after, &:hover .nav-item-hover:after {
-      opacity: 1;
-      transition-duration: 400ms;
-      transition-property: all;
-      transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-    }
+    // .nav-item-hover.active:after, &:hover .nav-item-hover:after {
+    //   opacity: 1;
+    //   transition-duration: 400ms;
+    //   transition-property: all;
+    //   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+    // }
   }
   .nav-item-child {
     position: relative;
@@ -517,6 +526,14 @@ fieldset[disabled] .btn-theme {
     transition-duration: 300ms;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+    text-decoration: none;
+    b {
+      border-bottom: none;
+      &:hover {
+        border-bottom: 2px solid #fff;
+        padding: 0 0 2px 0;
+      }
+    }
   }
   .nav-item-hover {
     position: relative;
@@ -598,6 +615,11 @@ fieldset[disabled] .btn-theme {
       color: #fff;
       line-height: 1.4;
       padding: 12px 12px 12px 15px;
+      text-decoration: none;
+      b:hover {
+        border-bottom: 1.2px solid #fff;
+        padding: 0 0 2px 0;
+      }
     }
     .nav-item-hover:after {
       position: absolute;
@@ -662,7 +684,8 @@ fieldset[disabled] .btn-theme {
   position: absolute;
   max-width: 26%;
   right: 4%;
-  top: 230%;
+  top: 350%;
+  z-index: 1;
 }
 
 #baby {
@@ -676,7 +699,8 @@ fieldset[disabled] .btn-theme {
   position: absolute;
   max-width: 15%;
   left: 10%;
-  top: 288%;
+  top: 455%;
+  z-index: 1;
 }
 
 #seaweed_content {
@@ -690,7 +714,6 @@ fieldset[disabled] .btn-theme {
 .page-on-scroll .header {
   .navbar {
     background-color: #fff;
-    opacity: .8;
     transition-duration: 300ms;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -709,9 +732,18 @@ fieldset[disabled] .btn-theme {
   }
   .nav-item-child {
     color: #69d0fc;
+    text-decoration: none;
     transition-duration: 300ms;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+    b {
+      border-bottom: none;
+      &:hover {
+        border-bottom: 2px solid #69d0fc;
+        padding: 0 0 2px 0;
+      }
+    }
+    
   }
   .container {
     border: none;
@@ -722,7 +754,7 @@ fieldset[disabled] .btn-theme {
   .page-on-scroll .header {
     .navbar {
       background: #fff;
-      opacity: .8;
+      opacity: 1;
       transition-duration: 300ms;
       transition-property: all;
       transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -743,9 +775,17 @@ fieldset[disabled] .btn-theme {
     }
     .nav-item-child {
       color: #fff;
+      text-decoration: none;
       transition-duration: 300ms;
       transition-property: all;
       transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+      b {
+        border-bottom: none;
+        &:hover {
+          border-bottom: 2px solid #fff;
+          padding: 0 0 2px 0;
+        }
+      }
     }
   }
 }
@@ -757,19 +797,40 @@ fieldset[disabled] .btn-theme {
 .about {
   line-height: 1.8;
   text-align: center;
+  img{
+    position: absolute;
+    top: 200%;
+    right: 80%;
+    width: 170px;
+    height: 170px;
+    background: transparent;
+    z-index: 0;
+  }
 }
 
 .benefit {
-    .row {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-    .align-right {
-        text-align: right;
-    }
-    .align-left {
-        text-align: left;
-    }
+  .row {
+      padding-top: 60px;
+      padding-bottom: 60px;
+      .right-beach {
+        background-image: url("../../public/img/bg/right.png");
+        background-size: 100%;   
+        min-height: 500px;
+        z-index: 0;
+      }
+      .left-beach {
+        background-image: url("../../public/img/bg/left.png");
+        background-size: 100%;
+        min-height: 500px;
+        z-index: 0;
+      }
+  }
+  .align-right {
+      text-align: right;
+  }
+  .align-left {
+      text-align: left;
+  }
 }
 
 .service .card.service-opt {
@@ -1100,41 +1161,61 @@ fieldset[disabled] .btn-theme {
 /*--------------------------------------------------
     [Contact]
 ----------------------------------------------------*/
-
-.contact {
-  padding-top: 450px;
-  text-decoration: none;
-  font-family: 'b';
-  font-weight: 100;
-  margin: 20px 10px;
-  line-height: 60px;
-  text-align: center;
-  h1 {
-    color: #fff;
+.footer {
+  background-image: url("../../public/img/bg/footer.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 900px;
+  .contact {
+    padding-top: 450px;
+    text-decoration: none;
+    font-family: 'b';
+    font-weight: 100;
+    margin: 20px 10px;
+    line-height: 60px;
+    text-align: center;
+    h1 {
+      color: #fff;
+    }
+    .contact-text {
+      color: #fff;
+      line-height: 1.5;
+      font-weight: bold;
+    }
   }
-  .contact-text {
-    color: #fff;
-    line-height: 1.5;
-    font-weight: bold;
+  
+  .contact-list {
+    font-size: 13px;
+    color: #81848f;
+    margin: 10px;
+    list-style-type: none;
+    padding: 0 3px 0 3px;
+    text-align: center;
+    li {
+      font-size: 1.8rem;
+      padding: 5px;
+      line-height: 1.5;
+      margin: 3px 20px;
+      display: inline-block;
+      &:hover {
+        background-color: transparent !important;
+      }
+      .logo {
+        height: 35px;
+        width: 35px;
+        color: #fff;
+        border-radius: 8px;
+        transition: transform .3s;
+        &:hover {
+          color: #ffdd15;
+          transform: scale(1.5);
+        }
+      }
+    }
   }
 }
 
-.contact-list {
-  font-size: 13px;
-  color: #81848f;
-  margin: 10px;
-  list-style-type: none;
-  padding: 0 3px 0 3px;
-  text-align: left;
-  li {
-    text-align: left;
-    font-size: 20px;
-    padding: 5px;
-    line-height: 1.5;
-    margin: 3px 20px;
-    display: block;
-  }
-}
+
 
 @media (max-width: 460px) {
   .contact-list li {

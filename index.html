@@ -20,59 +20,63 @@
         <link rel="icon" sizes="57x57" href="public/img/fav.png">
     </head>
     <body>
-        <!--========== HEADER ==========-->
+        <div class="top">
+            <!--========== HEADER ==========-->
         <header class="header navbar-fixed-top">
-            <!-- Navbar -->
-            <nav class="navbar" role="navigation">
-                <div class="container">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="menu-container">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-                            <span class="sr-only">navigation</span>
-                            <span class="toggle-icon"></span>
-                        </button>
-
-                        <!-- Logo -->
-                        <div class="logo">
-                            <a class="logo-wrap" href="/" >
-                                <img class="logo-img logo-img-main unselectable" src="public/img/logo.png" alt="Asentus Logo">
-                                <img class="logo-img logo-img-active unselectable" src="public/img/logo.png" alt="Asentus Logo">
-                            </a>
-                        </div>
-                        <!-- End Logo -->
-                    </div>
-
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse nav-collapse">
+                <!-- Navbar -->
+                <nav class="navbar" role="navigation">
+                    <div class="container">
+                        <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="menu-container">
-                            <ul id="nav" class="navbar-nav navbar-nav-right nav-scroll">
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover bold" href="#about">About</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover bold" href="#benefit">Benefit</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover bold" href="#service">Service</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover bold" href="#gallery">Gallery</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover bold" href="#packages">Packages</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover bold" href="#contact">Contact</a></li>
-                            </ul>
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                                <span class="sr-only">navigation</span>
+                                <span class="toggle-icon"></span>
+                            </button>
+    
+                            <!-- Logo -->
+                            <div class="logo">
+                                <a class="logo-wrap" href="/" >
+                                    <img class="logo-img logo-img-main unselectable" src="public/img/logo.png" alt="Asentus Logo">
+                                    <img class="logo-img logo-img-active unselectable" src="public/img/logo.png" alt="Asentus Logo">
+                                </a>
+                            </div>
+                            <!-- End Logo -->
                         </div>
-                    </div> 
-                    <!-- End Navbar Collapse -->
+    
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse nav-collapse">
+                            <div class="menu-container">
+                                <ul id="nav" class="navbar-nav navbar-nav-right nav-scroll">
+                                    <li class="nav-item"><a class="nav-item-child nav-item-hover bold" href="#about"><b>About</b></a></li>
+                                    <li class="nav-item"><a class="nav-item-child nav-item-hover bold" href="#benefit"><b>Benefit</b></a></li>
+                                    <li class="nav-item"><a class="nav-item-child nav-item-hover bold" href="#service"><b>Service</b></a></li>
+                                    <li class="nav-item"><a class="nav-item-child nav-item-hover bold" href="#gallery"><b>Gallery</b></a></li>
+                                    <li class="nav-item"><a class="nav-item-child nav-item-hover bold" href="#packages"><b>Packages</b></a></li>
+                                    <li class="nav-item"><a class="nav-item-child nav-item-hover bold" href="#contact"><b>Contact</b></a></li>
+                                </ul>
+                            </div>
+                        </div> 
+                        <!-- End Navbar Collapse -->
+                    </div>
+                </nav>
+                <!-- Navbar -->
+            </header>
+            <div id="fish-top"></div>
+            
+            <div class="banner content-lg container unselectable">
+                <h2 class="banner-head bold" id="title-full" class="carousel-title">Discover floating fun</h2>
+                <h3 class="banner-head bold" id="title-responsive" class="carousel-title">Discover floating fun</h3>
+                <a class="banner-btn btn-theme btn-theme-bg theme-back" id="banner-btn1" href="#about">Get Started</a>
+                <div id="conch"></div>
+                <div id="baby">
+    
                 </div>
-            </nav>
-            <!-- Navbar -->
-        </header>
-        <div id="fish-top"></div>
-        
-        <div class="banner content-lg container unselectable">
-            <h2 class="banner-head bold" id="title-full" class="carousel-title">Discover floating fun</h2>
-            <h3 class="banner-head bold" id="title-responsive" class="carousel-title">Discover floating fun</h3>
-            <a class="banner-btn btn-theme btn-theme-bg theme-back" id="banner-btn1" href="#about">Get Started</a>
-            <div id="conch"></div>
-            <div id="baby">
-
             </div>
         </div>
         
+        
         <div id="about" class="about content-lg container aos unselectable">
+            <img id="#jelly1" src="public/img/bg/jelly1.png">
             <h1 data-aos="fade-right" class="aos-init aos-animate section-head bold unselectable">About Us</h1>
             <div data-aos="fade-left" class="aos-init aos-animate content content-md unselectable">
                 <p>
@@ -85,10 +89,11 @@
                 </p>
             </div>
         </div>
-        <div id="benefit" class="benefit content-lg container unselectable">
+        <div id="benefit" class="benefit content-lg unselectable">
             <h1 data-aos="fade-right" class="aos-init aos-animate section-head bold unselectable">Benefit</h1>
             <div class="row align-left">
-                <div class="col-md-6">
+                <div class="col-md-1"></div>
+                <div class=" col-md-6">
                     <h2 data-aos="fade-right" class="aos-init aos-animate section-sub bold unselectable">Physical Health</h2>
                     <div data-aos="fade-right" class="aos-init aos-animate content-md unselectable">
                         <p>
@@ -103,10 +108,13 @@
                         </p>
                     </div>
                 </div>
+                <div class="right-beach col-md-5">
+                </div>
             </div>
             <div class="row align-right">
-                <div class="col-md-6"></div>
-                <div class="col-md-6">
+                <div class="left-beach col-md-5">
+                </div>
+                <div class=" col-md-6">
                     <h2 data-aos="fade-left" class="aos-init aos-animate section-sub bold unselectable">Mental Health</h2>
                     <div data-aos="fade-left" class="aos-init aos-animate content-md unselectable">
                         <p>
@@ -121,6 +129,7 @@
                         </p>
                     </div>
                 </div>
+                <div class="col-md-1"></div>
             </div>
         </div>
         <div id="seaweed">
@@ -202,7 +211,7 @@
             <h1 data-aos="fade-down" class="aos-init aos-animate section-head bold unselectable">Gallery</h1>
             <div data-aos="fade-down" class="aos-init aos-animate" id="slider">
                 <a  class="control_next">>></a>
-                <a  class="control_prev"><</a>
+                <a  class="control_prev"><<</a>
                 <ul>
                     <li>
                         <img src="public/img/baby.png"> </li>
@@ -281,30 +290,33 @@
                 </div>
             </div>
         </div>
-        <div id="contact" class="contact content-lg container bold">
-            <div class="row">
-                <div class="col-lg-6"></div>
-                <div class="col-lg-6">
-                    <h1 class="section-head bold unselectable">Contact Us</h1>
-                    <div class="row">
-                        <!-- <div class="col-md-6"> -->
-                            <ul class="contact-list">
+        <div class="footer">
+                <div class="contact content-lg container bold">
+                <div class="row">
+                    <div class="col-lg-6"></div>
+                    <div class="col-lg-6">
+                        <h1 class="section-head bold unselectable">Contact Us</h1>
+                        <div class="row">
+                            <ul class="contact-list  flex-wrap justify-content-sm-start justify-content-md-between">
+                                <li><a name="Address" href="https://www.google.ca/maps/place/2904+Lakeview+Blvd,+Ajax,+ON+L1S+1A1/@43.8264844,-78.999572,17z/data=!4m2!3m1!1s0x89d4e08b9d76ff33:0x4e25e0d0f0ad3a89"><i class="logo fas fa-map-marker"></i>
+                                </a></li>
+                                <li><a name="Email" href="mailto:zoezhengx@gmail.com"><i class="logo fas fa-envelope"></i></a></a></li>
+                                <li><a name="contact" href="tel:1(647)308-1899" ><i class="logo fas fa-phone"></i></a></li>
+                            </ul>
+                            <!-- <ul class="contact-list">
                                 <li><a class="contact-text">Email:</a></li>
                                 <li><a class="contact-text">zoezhengx@gmail.com</a></li>
                                 <li><a class="contact-text">Tel:</a></li>
                                 <li><a class="contact-text">+1.6473081899</a></li>
                                 <li><a class="contact-text">Location:</a></li>
                                 <li><a class="contact-text">2904 lakeview blvd, ajax, Ontario, Canada L1S 1A1</a></li>
-                            </ul>
-                        <!-- </div> -->
-                        <!-- <div class="col-md-6">
-                            <ul class="contact-list">       
-                            </ul>
-                        </div> -->
+                            </ul>                        -->
+                        </div>
                     </div>
-                </div>
-            </div>  
+                </div>  
+            </div>
         </div>
+        
 
     </body>
     <script src="public/js/jquery-3.3.1.min.js" type="text/javascript"></script>

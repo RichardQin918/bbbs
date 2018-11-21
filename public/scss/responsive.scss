@@ -1,7 +1,7 @@
 @media only screen and (max-width: 320px) {
   /* smartphones, iPhone, portrait 480x320 phones */
   html, body {
-    background-image: url("../../public/img/background_mobile.jpg");
+    // background-image: url("../../public/img/background_mobile.jpg");
     z-index: -2;
     background-size: cover;
     background-repeat:no-repeat;
@@ -88,7 +88,7 @@
 @media only screen and (min-width: 320px) and (max-width: 481px) {
   /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
   html, body {
-    background-image: url("../../public/img/background_mobile.jpg");
+    // background-image: url("../../public/img/background_mobile.jpg");
     z-index: -2;
     background-size: cover;
     background-repeat:no-repeat;
@@ -173,7 +173,7 @@
 @media only screen and (min-width: 641px) and (max-width: 961px) {
   /* tablet, landscape iPad, lo-res laptops ands desktops */
   html, body {
-    background-image: url("../../public/img/background_tablet.jpg");
+    // background-image: url("../../public/img/background_tablet.jpg");
     z-index: -2;
     background-size: cover;
     background-repeat:no-repeat;
@@ -257,7 +257,7 @@
 @media only screen and (min-width: 961px) and (max-width: 1025px) {
   /* big landscape tablets, laptops, and desktops */
   html, body {
-    background-image: url("../../public/img/background_tablet.jpg");
+    // background-image: url("../../public/img/background_tablet.jpg");
     z-index: -2;
     background-size: cover;
     background-repeat:no-repeat;
