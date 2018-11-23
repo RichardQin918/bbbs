@@ -1,4 +1,7 @@
 @media only screen and (max-width: 320px) {
+  #seaweed, #conch {
+    display: none;
+  }
   /* smartphones, iPhone, portrait 480x320 phones */
   html, body {
     // background-image: url("../../public/img/background_mobile.jpg");
@@ -11,11 +14,11 @@
 	      margin-top: 0;
 	      width: 200px;
 	      height: 30px;
-	}
+	  }
 	    .logo-img-active {
 	      margin-top: 0 !important;
 	    }
-	 }
+	  }
   #title-responsive {
     font-size: 30px;
     color: #fff;
@@ -75,17 +78,51 @@
     padding-bottom: 50px;
   }
   .packages {
-    padding-bottom: 500px;
+    padding-bottom: 0;
   }
   .contact {
-    padding-top: 0;
+    padding: 0;
     padding-bottom: 300px;
   }
+  }
+
+  .top {
+    background-image: url("../../public/img/bg/top.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 400px;
+  
+  }
+  .benefit {
+    .row {
+      .right-beach, .left-beach {
+        min-height: 320px;
+      }
+    }
+  }
+  .footer {
+    min-height: 0;
+    .contact {
+      margin: 0;
+      padding: 0;
+      h1 {
+        position: relative;
+        font-size: 20px;
+        top: 50px;  
+      }
+      .contact-list-pc {
+        display: none;
+      }
+    }
+    
   }
   
 }
 
 @media only screen and (min-width: 320px) and (max-width: 481px) {
+  #seaweed, #conch {
+    display: none;
+  }
   /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
   html, body {
     // background-image: url("../../public/img/background_mobile.jpg");
@@ -161,16 +198,48 @@
     padding-bottom: 50px;
   }
   .packages {
-    padding-bottom: 500px;
+    padding-bottom: 0;
   }
   .contact {
-    padding-top: 0;
+    padding: 0;
     padding-bottom: 300px;
   }
+  }
+  .top {
+    background-image: url("../../public/img/bg/top.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 500px;
+  }
+  .benefit {
+    .row {
+      .right-beach, .left-beach {
+        min-height: 400px;
+        height: 100%;
+      }
+    }
+  }
+  .footer {
+    min-height: 0;
+    .contact {
+      margin: 0;
+      padding: 0;
+      h1 {
+        position: relative;
+        font-size: 20px;
+        top: 50px;  
+      }
+      .contact-list-pc {
+        display: none;
+      }
+    }
   }
 }
 
 @media only screen and (min-width: 641px) and (max-width: 961px) {
+  #seaweed, #conch {
+    display: none;
+  }
   /* tablet, landscape iPad, lo-res laptops ands desktops */
   html, body {
     // background-image: url("../../public/img/background_tablet.jpg");
@@ -182,79 +251,101 @@
 	      margin-top: 0;
 	      width: 200px;
 	      height: 30px;
-	}
-	    .logo-img-active {
-	      margin-top: 0 !important;
-	    }
-	 }
-  .banner .banner-head {
-    font-size: 50px;
-    height: 110px;
-  }
-  .btn-theme-bg {
-    font-size: 20px;
-    padding: 10px 20px;
-    opacity: .9;
-  }
-  .banner .banner-btn {
-    background-color: #fff;
-    color: #69d0fc;
-    top: 150px;
-    border: solid thin #69d0fc;
-  }
-  #fish-top {
-    max-width: 100%;
-  }
-  #baby {
-    max-width: 18%;
-    right: 12%;
-    top: 5%;
-  }
-  #seaweed {
-    top: 157%;
-    max-width: 20%;
-    left: 8%;
-  }
-  .section-head {
-    font-size: 40px;
-  }
-  .content {
-    padding: 0;
-  }
-  .gallery #slider {
-    width: auto !important;
-    height: 200px;
-    img {
-      width: 500px;
-      height: 400px;
     }
-  }
-  .section-sub {
-    font-size: 30px;
-    color: #31bbf7;
-  }
-  .content-md {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  .content-lg {
-    padding-top: 200px;
-    padding-bottom: 200px;
-  }
-  .packages {
-    padding-bottom: 500px;
-  }
-  .contact {
-    padding-top: 0;
-    padding-bottom: 300px;
-  }
-  .contact-list li{
-    text-align: right;
-  }
+        .logo-img-active {
+          margin-top: 0 !important;
+        }
+    }
+    .banner .banner-head {
+      font-size: 50px;
+      height: 110px;
+    }
+    .btn-theme-bg {
+      font-size: 20px;
+      padding: 10px 20px;
+      opacity: .9;
+    }
+    .banner .banner-btn {
+      background-color: #fff;
+      color: #69d0fc;
+      top: 150px;
+      border: solid thin #69d0fc;
+    }
+    #fish-top {
+      max-width: 100%;
+    }
+    #baby {
+      max-width: 18%;
+      right: 12%;
+      top: 5%;
+    }
+    #seaweed {
+      top: 157%;
+      max-width: 20%;
+      left: 8%;
+    }
+    .section-head {
+      font-size: 40px;
+    }
+    .content {
+      padding: 0;
+    }
+    .gallery #slider {
+      width: auto !important;
+      height: 200px;
+      img {
+        width: 500px;
+        height: 400px;
+      }
+    }
+    .section-sub {
+      font-size: 30px;
+      color: #31bbf7;
+    }
+    .content-md {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .content-lg {
+      padding-top: 200px;
+      padding-bottom: 200px;
+    }
+    .packages {
+      padding-bottom: 0;
+    }
+    .contact {
+      padding: 0;
+      padding-bottom: 300px;
+    }
+    .contact-list li{
+      text-align: right;
+    }
+    .benefit {
+      .row {
+        .right-beach, .left-beach {
+          min-height: 750px;
+        }
+      }
+    }
+    .contact {
+      margin: 0;
+      padding: 0;
+      h1 {
+        position: relative;
+        font-size: 20px;
+        top: 50px;  
+      }
+      .contact-list-pc {
+        display: none;
+      }
+    }
   }
 }
 
 @media only screen and (min-width: 961px) and (max-width: 1025px) {
+  #seaweed, #conch {
+    display: none;
+  }
   /* big landscape tablets, laptops, and desktops */
   html, body {
     // background-image: url("../../public/img/background_tablet.jpg");
@@ -266,79 +357,103 @@
 	      margin-top: 0;
 	      width: 200px;
 	      height: 30px;
-	}
-	    .logo-img-active {
-	      margin-top: 0 !important;
-	    }
-	 }
-  .banner .banner-head {
-    font-size: 50px;
-    height: 110px;
-  }
-  .btn-theme-bg {
-    font-size: 20px;
-    padding: 10px 20px;
-    opacity: .9;
-  }
-  .banner .banner-btn {
-    background-color: #fff;
-    color: #69d0fc;
-    top: 150px;
-    border: solid thin #69d0fc;
-  }
-  #fish-top {
-    max-width: 100%;
-  }
-  #baby {
-    max-width: 18%;
-    right: 12%;
-    top: 5%;
-  }
-  #seaweed {
-    top: 157%;
-    max-width: 20%;
-    left: 8%;
-  }
-  .section-head {
-    font-size: 40px;
-  }
-  .content {
-    padding: 0;
-  }
-  .gallery #slider {
-    width: auto !important;
-    height: 200px;
-    img {
-      width: 500px;
-      height: 400px;
     }
-  }
-  .section-sub {
-    font-size: 30px;
-    color: #31bbf7;
-  }
-  .content-md {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  .content-lg {
-    padding-top: 200px;
-    padding-bottom: 200px;
-  }
-  .packages {
-    padding-bottom: 500px;
-  }
-  .contact {
-    padding-top: 0;
-    padding-bottom: 300px;
-  }
-  .contact-list li{
-    text-align: right;
-  }
+        .logo-img-active {
+          margin-top: 0 !important;
+        }
+    }
+    .banner .banner-head {
+      font-size: 50px;
+      height: 110px;
+    }
+    .btn-theme-bg {
+      font-size: 20px;
+      padding: 10px 20px;
+      opacity: .9;
+    }
+    .banner .banner-btn {
+      background-color: #fff;
+      color: #69d0fc;
+      top: 150px;
+      border: solid thin #69d0fc;
+    }
+    #fish-top {
+      max-width: 100%;
+    }
+    #baby {
+      max-width: 18%;
+      right: 12%;
+      top: 5%;
+    }
+    #seaweed {
+      top: 157%;
+      max-width: 20%;
+      left: 8%;
+    }
+    .section-head {
+      font-size: 40px;
+    }
+    .content {
+      padding: 0;
+    }
+    .gallery #slider {
+      width: auto !important;
+      height: 200px;
+      img {
+        width: 500px;
+        height: 400px;
+      }
+    }
+    .section-sub {
+      font-size: 30px;
+      color: #31bbf7;
+    }
+    .content-md {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .content-lg {
+      padding-top: 200px;
+      padding-bottom: 200px;
+    }
+    .packages {
+      padding-bottom: 0;
+    }
+    .contact {
+      padding: 0;
+      padding-bottom: 300px;
+    }
+    .contact-list li{
+      text-align: right;
+    }
+    .benefit {
+      .row {
+        .right-beach, .left-beach {
+          min-height: 400px;
+        }
+      }
+    }
+    #packages {
+      padding-bottom: none;
+    }
+    .footer {
+      min-height: 0;
+      margin: -50px;
+      // height: 0;
+      .contact {
+        padding: 0;
+        .contact-list {
+          display: none;
+        }
+      }
+    }
   }
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1281px) {
+  #seaweed, #conch {
+    display: none;
+  }
   /* hi-res laptops and desktops */
-
+  
 }

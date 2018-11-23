@@ -1,4 +1,7 @@
 @media only screen and (max-width: 320px) {
+  #seaweed, #conch {
+    display: none; }
+
   /* smartphones, iPhone, portrait 480x320 phones */
   html, body {
     z-index: -2;
@@ -55,11 +58,35 @@
       padding-top: 50px;
       padding-bottom: 50px; }
     html .packages, body .packages {
-      padding-bottom: 500px; }
+      padding-bottom: 0; }
     html .contact, body .contact {
-      padding-top: 0;
-      padding-bottom: 300px; } }
+      padding: 0;
+      padding-bottom: 300px; }
+
+  .top {
+    background-image: url("../../public/img/bg/top.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 400px; }
+
+  .benefit .row .right-beach, .benefit .row .left-beach {
+    min-height: 320px; }
+
+  .footer {
+    min-height: 0; }
+    .footer .contact {
+      margin: 0;
+      padding: 0; }
+      .footer .contact h1 {
+        position: relative;
+        font-size: 20px;
+        top: 50px; }
+      .footer .contact .contact-list-pc {
+        display: none; } }
 @media only screen and (min-width: 320px) and (max-width: 481px) {
+  #seaweed, #conch {
+    display: none; }
+
   /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
   html, body {
     z-index: -2;
@@ -116,11 +143,36 @@
       padding-top: 50px;
       padding-bottom: 50px; }
     html .packages, body .packages {
-      padding-bottom: 500px; }
+      padding-bottom: 0; }
     html .contact, body .contact {
-      padding-top: 0;
-      padding-bottom: 300px; } }
+      padding: 0;
+      padding-bottom: 300px; }
+
+  .top {
+    background-image: url("../../public/img/bg/top.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 500px; }
+
+  .benefit .row .right-beach, .benefit .row .left-beach {
+    min-height: 400px;
+    height: 100%; }
+
+  .footer {
+    min-height: 0; }
+    .footer .contact {
+      margin: 0;
+      padding: 0; }
+      .footer .contact h1 {
+        position: relative;
+        font-size: 20px;
+        top: 50px; }
+      .footer .contact .contact-list-pc {
+        display: none; } }
 @media only screen and (min-width: 641px) and (max-width: 961px) {
+  #seaweed, #conch {
+    display: none; }
+
   /* tablet, landscape iPad, lo-res laptops ands desktops */
   html, body {
     z-index: -2;
@@ -174,13 +226,27 @@
       padding-top: 200px;
       padding-bottom: 200px; }
     html .packages, body .packages {
-      padding-bottom: 500px; }
+      padding-bottom: 0; }
     html .contact, body .contact {
-      padding-top: 0;
+      padding: 0;
       padding-bottom: 300px; }
     html .contact-list li, body .contact-list li {
-      text-align: right; } }
+      text-align: right; }
+    html .benefit .row .right-beach, html .benefit .row .left-beach, body .benefit .row .right-beach, body .benefit .row .left-beach {
+      min-height: 750px; }
+    html .contact, body .contact {
+      margin: 0;
+      padding: 0; }
+      html .contact h1, body .contact h1 {
+        position: relative;
+        font-size: 20px;
+        top: 50px; }
+      html .contact .contact-list-pc, body .contact .contact-list-pc {
+        display: none; } }
 @media only screen and (min-width: 961px) and (max-width: 1025px) {
+  #seaweed, #conch {
+    display: none; }
+
   /* big landscape tablets, laptops, and desktops */
   html, body {
     z-index: -2;
@@ -234,13 +300,27 @@
       padding-top: 200px;
       padding-bottom: 200px; }
     html .packages, body .packages {
-      padding-bottom: 500px; }
+      padding-bottom: 0; }
     html .contact, body .contact {
-      padding-top: 0;
+      padding: 0;
       padding-bottom: 300px; }
     html .contact-list li, body .contact-list li {
-      text-align: right; } }
+      text-align: right; }
+    html .benefit .row .right-beach, html .benefit .row .left-beach, body .benefit .row .right-beach, body .benefit .row .left-beach {
+      min-height: 400px; }
+    html #packages, body #packages {
+      padding-bottom: none; }
+    html .footer, body .footer {
+      min-height: 0;
+      margin: -50px; }
+      html .footer .contact, body .footer .contact {
+        padding: 0; }
+        html .footer .contact .contact-list, body .footer .contact .contact-list {
+          display: none; } }
 @media only screen and (min-width: 1025px) and (max-width: 1281px) {
+  #seaweed, #conch {
+    display: none; }
+
   /* hi-res laptops and desktops */ }
 
 /*# sourceMappingURL=responsive.css.map */
