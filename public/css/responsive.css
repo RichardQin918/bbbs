@@ -64,25 +64,30 @@
       padding-bottom: 300px; }
 
   .top {
-    background-image: url("../../public/img/bg/top.png");
+    background-image: url("../../public/img/bg/mobileHead.png");
     background-size: 100%;
-    background-repeat: no-repeat;
-    min-height: 400px; }
+    background-repeat: no-repeat; }
 
   .benefit .row .right-beach, .benefit .row .left-beach {
     min-height: 320px; }
 
   .footer {
-    min-height: 0; }
+    background-image: url("../../public/img/bg/mobileFoot.png");
+    background-size: cover;
+    min-height: 500px; }
     .footer .contact {
       margin: 0;
-      padding: 0; }
+      padding: 0;
+      position: relative;
+      top: 150px; }
       .footer .contact h1 {
         position: relative;
         font-size: 20px;
         top: 50px; }
       .footer .contact .contact-list-pc {
-        display: none; } }
+        display: none; }
+      .footer .contact .contact-list {
+        display: inline; } }
 @media only screen and (min-width: 320px) and (max-width: 481px) {
   #seaweed, #conch {
     display: none; }
@@ -100,7 +105,7 @@
       margin-top: 0 !important; }
     html #title-responsive, body #title-responsive {
       font-size: 30px;
-      color: #69d0fc;
+      color: #fff;
       top: 0px; }
     html .banner .banner-head, body .banner .banner-head {
       height: 110px; }
@@ -149,26 +154,31 @@
       padding-bottom: 300px; }
 
   .top {
-    background-image: url("../../public/img/bg/top.png");
+    background-image: url("../../public/img/bg/mobileHead.png");
     background-size: 100%;
-    background-repeat: no-repeat;
-    min-height: 500px; }
+    background-repeat: no-repeat; }
 
   .benefit .row .right-beach, .benefit .row .left-beach {
     min-height: 400px;
     height: 100%; }
 
   .footer {
-    min-height: 0; }
+    background-image: url("../../public/img/bg/mobileFoot.png");
+    background-size: cover;
+    min-height: 500px; }
     .footer .contact {
       margin: 0;
-      padding: 0; }
+      padding: 0;
+      position: relative;
+      top: 150px; }
       .footer .contact h1 {
         position: relative;
         font-size: 20px;
         top: 50px; }
       .footer .contact .contact-list-pc {
-        display: none; } }
+        display: none; }
+      .footer .contact .contact-list {
+        display: inline; } }
 @media only screen and (min-width: 641px) and (max-width: 961px) {
   #seaweed, #conch {
     display: none; }
@@ -234,15 +244,23 @@
       text-align: right; }
     html .benefit .row .right-beach, html .benefit .row .left-beach, body .benefit .row .right-beach, body .benefit .row .left-beach {
       min-height: 750px; }
-    html .contact, body .contact {
-      margin: 0;
-      padding: 0; }
-      html .contact h1, body .contact h1 {
+    html .footer, body .footer {
+      background-image: url("../../public/img/bg/mobileFoot.png");
+      background-size: cover;
+      min-height: 500px; }
+      html .footer .contact, body .footer .contact {
+        margin: 0;
+        padding: 0;
         position: relative;
-        font-size: 20px;
-        top: 50px; }
-      html .contact .contact-list-pc, body .contact .contact-list-pc {
-        display: none; } }
+        top: 250px; }
+        html .footer .contact h1, body .footer .contact h1 {
+          position: relative;
+          font-size: 20px;
+          top: 50px; }
+        html .footer .contact .contact-list-pc, body .footer .contact .contact-list-pc {
+          display: none; }
+        html .footer .contact .contact-list, body .footer .contact .contact-list {
+          display: inline; } }
 @media only screen and (min-width: 961px) and (max-width: 1025px) {
   #seaweed, #conch {
     display: none; }
@@ -311,10 +329,14 @@
     html #packages, body #packages {
       padding-bottom: none; }
     html .footer, body .footer {
-      min-height: 0;
-      margin: -50px; }
+      background-image: url("../../public/img/bg/mobileFoot.png");
+      background-size: cover;
+      min-height: 1500px; }
       html .footer .contact, body .footer .contact {
-        padding: 0; }
+        padding: 0;
+        margin: 0;
+        position: relative;
+        top: 400px; }
         html .footer .contact .contact-list, body .footer .contact .contact-list {
           display: none; } }
 @media only screen and (min-width: 1025px) and (max-width: 1281px) {

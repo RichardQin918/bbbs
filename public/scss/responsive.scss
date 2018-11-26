@@ -87,11 +87,9 @@
   }
 
   .top {
-    background-image: url("../../public/img/bg/top.png");
+    background-image: url("../../public/img/bg/mobileHead.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    min-height: 400px;
-  
   }
   .benefit {
     .row {
@@ -101,10 +99,14 @@
     }
   }
   .footer {
-    min-height: 0;
+    background-image: url("../../public/img/bg/mobileFoot.png");
+    background-size: cover;
+    min-height: 500px;
     .contact {
       margin: 0;
       padding: 0;
+      position: relative;
+      top: 150px;
       h1 {
         position: relative;
         font-size: 20px;
@@ -112,6 +114,9 @@
       }
       .contact-list-pc {
         display: none;
+      }
+      .contact-list {
+        display: inline;
       }
     }
     
@@ -141,7 +146,7 @@
 	 }
   #title-responsive {
     font-size: 30px;
-    color: #69d0fc;
+    color: #fff;
     top: 0px;
   }
   .banner .banner-head {
@@ -206,10 +211,9 @@
   }
   }
   .top {
-    background-image: url("../../public/img/bg/top.png");
+    background-image: url("../../public/img/bg/mobileHead.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    min-height: 500px;
   }
   .benefit {
     .row {
@@ -220,10 +224,14 @@
     }
   }
   .footer {
-    min-height: 0;
+    background-image: url("../../public/img/bg/mobileFoot.png");
+    background-size: cover;
+    min-height: 500px;
     .contact {
       margin: 0;
       padding: 0;
+      position: relative;
+      top: 150px;
       h1 {
         position: relative;
         font-size: 20px;
@@ -231,6 +239,9 @@
       }
       .contact-list-pc {
         display: none;
+      }
+      .contact-list {
+        display: inline;
       }
     }
   }
@@ -327,16 +338,26 @@
         }
       }
     }
-    .contact {
-      margin: 0;
-      padding: 0;
-      h1 {
+    .footer {
+      background-image: url("../../public/img/bg/mobileFoot.png");
+      background-size: cover;
+      min-height: 500px;
+      .contact {
+        margin: 0;
+        padding: 0;
         position: relative;
-        font-size: 20px;
-        top: 50px;  
-      }
-      .contact-list-pc {
-        display: none;
+        top: 250px;
+        h1 {
+          position: relative;
+          font-size: 20px;
+          top: 50px;  
+        }
+        .contact-list-pc {
+          display: none;
+        }
+        .contact-list {
+          display: inline;
+        }
       }
     }
   }
@@ -437,11 +458,15 @@
       padding-bottom: none;
     }
     .footer {
-      min-height: 0;
-      margin: -50px;
+      background-image: url("../../public/img/bg/mobileFoot.png");
+      background-size: cover;
+      min-height: 1500px;
       // height: 0;
       .contact {
         padding: 0;
+        margin: 0;
+        position: relative;
+        top: 400px;
         .contact-list {
           display: none;
         }

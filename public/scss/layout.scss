@@ -1163,7 +1163,7 @@ fieldset[disabled] .btn-theme {
 ----------------------------------------------------*/
 .footer {
   background-image: url("../../public/img/bg/footer.png");
-  background-size: 100%;
+  background-size: auto;
   background-repeat: no-repeat;
   min-height: 900px;
   .contact {
@@ -1171,7 +1171,7 @@ fieldset[disabled] .btn-theme {
     text-decoration: none;
     font-family: 'b';
     font-weight: 100;
-    margin: 20px 10px;
+    // margin: 20px 10px;
     line-height: 60px;
     text-align: center;
     h1 {
@@ -1185,6 +1185,7 @@ fieldset[disabled] .btn-theme {
   }
   
   .contact-list {
+    display: none;
     font-size: 13px;
     color: #81848f;
     margin: 10px;
