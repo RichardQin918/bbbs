@@ -815,13 +815,15 @@ fieldset[disabled] .btn-theme {
       .right-beach {
         background-image: url("../../public/img/bg/right.png");
         background-size: 100%;   
-        // min-height: 700px;
+        min-height: 700px;
+        height: 100%;
         z-index: 0;
       }
       .left-beach {
         background-image: url("../../public/img/bg/left.png");
         background-size: 100%;
-        // min-height: 700px;
+        min-height: 700px;
+        height: 100%;
         z-index: 0;
       }
   }
