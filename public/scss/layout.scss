@@ -684,7 +684,7 @@ fieldset[disabled] .btn-theme {
   position: absolute;
   max-width: 26%;
   right: 4%;
-  top: 350%;
+  top: 320%;
   z-index: 1;
 }
 
@@ -699,7 +699,7 @@ fieldset[disabled] .btn-theme {
   position: absolute;
   max-width: 15%;
   left: 10%;
-  top: 455%;
+  top: 450%;
   z-index: 1;
 }
 
@@ -815,13 +815,13 @@ fieldset[disabled] .btn-theme {
       .right-beach {
         background-image: url("../../public/img/bg/right.png");
         background-size: 100%;   
-        min-height: 500px;
+        min-height: 700px;
         z-index: 0;
       }
       .left-beach {
         background-image: url("../../public/img/bg/left.png");
         background-size: 100%;
-        min-height: 500px;
+        min-height: 700px;
         z-index: 0;
       }
   }
