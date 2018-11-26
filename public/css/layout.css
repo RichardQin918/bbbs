@@ -655,12 +655,10 @@ fieldset[disabled] .btn-theme {
   .benefit .row .right-beach {
     background-image: url("../../public/img/bg/right.png");
     background-size: 100%;
-    min-height: 700px;
     z-index: 0; }
   .benefit .row .left-beach {
     background-image: url("../../public/img/bg/left.png");
     background-size: 100%;
-    min-height: 700px;
     z-index: 0; }
 .benefit .align-right {
   text-align: right; }
