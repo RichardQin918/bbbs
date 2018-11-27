@@ -483,6 +483,10 @@ fieldset[disabled] .btn-theme {
     width: auto;
     height: 60px;
     vertical-align: middle;
+
+    @media screen and (min-width: 991px) and (max-width: 1200px) {
+      height: 30px;
+    }
   }
   .logo-img-main {
     display: inline-block;
@@ -1104,7 +1108,7 @@ fieldset[disabled] .btn-theme {
 
 .container {
   background: transparent;
-  max-width: 90%;
+  max-width: 100%;
   width: 1150px;
   border-bottom: solid thin rgba(255, 255, 255, 0.14);
 }
@@ -1167,15 +1171,16 @@ fieldset[disabled] .btn-theme {
   background-image: url("../../public/img/bg/footer.png");
   background-size: auto;
   background-repeat: no-repeat;
-  min-height: 900px;
+  min-height: 1750px;
   .contact {
-    padding-top: 450px;
+    padding-top: 750px;
     text-decoration: none;
     font-family: 'b';
     font-weight: 100;
     // margin: 20px 10px;
     line-height: 60px;
     text-align: center;
+    border: none;
     h1 {
       color: #fff;
     }

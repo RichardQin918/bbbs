@@ -8,11 +8,11 @@
     background-size: cover;
     background-repeat: no-repeat; }
     html .header .logo-img, body .header .logo-img {
-      margin-top: 0;
+      margin-top: 1em;
       width: 200px;
       height: 30px; }
     html .header .logo-img-active, body .header .logo-img-active {
-      margin-top: 0 !important; }
+      margin-top: 1em !important; }
     html #title-responsive, body #title-responsive {
       font-size: 30px;
       color: #fff;
@@ -22,10 +22,10 @@
     html .btn-theme-bg, body .btn-theme-bg {
       font-size: 20px;
       padding: 10px 20px;
-      opacity: .9; }
+      opacity: 1; }
     html .banner .banner-btn, body .banner .banner-btn {
-      background-color: #fff;
-      color: #69d0fc;
+      background-color: #69d0fc;
+      color: #fff;
       top: 0px;
       border: solid thin #69d0fc; }
     html #fish-top, body #fish-top {
@@ -55,7 +55,7 @@
       padding-top: 20px;
       padding-bottom: 20px; }
     html .content-lg, body .content-lg {
-      padding-top: 50px;
+      padding-top: 100px;
       padding-bottom: 50px; }
     html .packages, body .packages {
       padding-bottom: 0; }
@@ -68,13 +68,15 @@
     background-size: 100%;
     background-repeat: no-repeat; }
 
+  .benefit .row .wording {
+    padding: 50px; }
   .benefit .row .right-beach, .benefit .row .left-beach {
     min-height: 320px; }
 
   .footer {
     background-image: url("../../public/img/bg/mobileFoot.png");
     background-size: cover;
-    min-height: 500px; }
+    min-height: 600px; }
     .footer .contact {
       margin: 0;
       padding: 0;
@@ -98,11 +100,11 @@
     background-size: cover;
     background-repeat: no-repeat; }
     html .header .logo-img, body .header .logo-img {
-      margin-top: 0;
-      width: 200px;
-      height: 30px; }
+      margin-top: 1em;
+      width: 12em;
+      height: 2em; }
     html .header .logo-img-active, body .header .logo-img-active {
-      margin-top: 0 !important; }
+      margin-top: 1em !important; }
     html #title-responsive, body #title-responsive {
       font-size: 30px;
       color: #fff;
@@ -112,10 +114,10 @@
     html .btn-theme-bg, body .btn-theme-bg {
       font-size: 20px;
       padding: 10px 20px;
-      opacity: .9; }
+      opacity: 1; }
     html .banner .banner-btn, body .banner .banner-btn {
-      background-color: #fff;
-      color: #69d0fc;
+      background-color: #69d0fc;
+      color: #fff;
       top: 0px;
       border: solid thin #69d0fc; }
     html #fish-top, body #fish-top {
@@ -145,7 +147,7 @@
       padding-top: 20px;
       padding-bottom: 20px; }
     html .content-lg, body .content-lg {
-      padding-top: 50px;
+      padding-top: 80px;
       padding-bottom: 50px; }
     html .packages, body .packages {
       padding-bottom: 0; }
@@ -158,14 +160,16 @@
     background-size: 100%;
     background-repeat: no-repeat; }
 
+  .benefit .row .wording {
+    padding: 50px; }
   .benefit .row .right-beach, .benefit .row .left-beach {
-    min-height: 400px;
+    min-height: 370px;
     height: 100%; }
 
   .footer {
     background-image: url("../../public/img/bg/mobileFoot.png");
     background-size: cover;
-    min-height: 500px; }
+    min-height: 750px; }
     .footer .contact {
       margin: 0;
       padding: 0;
@@ -189,18 +193,18 @@
     background-size: cover;
     background-repeat: no-repeat; }
     html .header .logo-img, body .header .logo-img {
-      margin-top: 0;
-      width: 200px;
-      height: 30px; }
+      margin-top: 20px;
+      width: auto;
+      height: 50px; }
     html .header .logo-img-active, body .header .logo-img-active {
-      margin-top: 0 !important; }
+      margin-top: 1em !important; }
     html .banner .banner-head, body .banner .banner-head {
       font-size: 50px;
       height: 110px; }
     html .btn-theme-bg, body .btn-theme-bg {
       font-size: 20px;
       padding: 10px 20px;
-      opacity: .9; }
+      opacity: 1; }
     html .banner .banner-btn, body .banner .banner-btn {
       background-color: #fff;
       color: #69d0fc;
@@ -242,17 +246,19 @@
       padding-bottom: 300px; }
     html .contact-list li, body .contact-list li {
       text-align: right; }
+    html .benefit .row .wording, body .benefit .row .wording {
+      padding: 80px; }
     html .benefit .row .right-beach, html .benefit .row .left-beach, body .benefit .row .right-beach, body .benefit .row .left-beach {
       min-height: 750px; }
     html .footer, body .footer {
       background-image: url("../../public/img/bg/mobileFoot.png");
       background-size: cover;
-      min-height: 500px; }
+      min-height: 1800px; }
       html .footer .contact, body .footer .contact {
         margin: 0;
         padding: 0;
         position: relative;
-        top: 250px; }
+        top: 450px; }
         html .footer .contact h1, body .footer .contact h1 {
           position: relative;
           font-size: 20px;
@@ -275,14 +281,14 @@
       width: 200px;
       height: 30px; }
     html .header .logo-img-active, body .header .logo-img-active {
-      margin-top: 0 !important; }
+      margin-top: 1em !important; }
     html .banner .banner-head, body .banner .banner-head {
       font-size: 50px;
       height: 110px; }
     html .btn-theme-bg, body .btn-theme-bg {
       font-size: 20px;
       padding: 10px 20px;
-      opacity: .9; }
+      opacity: 1; }
     html .banner .banner-btn, body .banner .banner-btn {
       background-color: #fff;
       color: #69d0fc;
