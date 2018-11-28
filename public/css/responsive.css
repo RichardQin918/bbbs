@@ -34,10 +34,6 @@
       max-width: 30%;
       right: 12%;
       top: 15%; }
-    html #seaweed, body #seaweed {
-      top: 335%;
-      max-width: 35%;
-      left: 20%; }
     html .section-head, body .section-head {
       font-size: 40px; }
     html .content, body .content {
@@ -91,9 +87,6 @@
       .footer .contact .contact-list {
         display: inline; } }
 @media only screen and (min-width: 320px) and (max-width: 481px) {
-  #seaweed, #conch {
-    display: none; }
-
   /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
   html, body {
     z-index: -2;
@@ -102,7 +95,7 @@
     html .header .logo-img, body .header .logo-img {
       margin-top: 1em;
       width: 12em;
-      height: 2em; }
+      height: 1.5em; }
     html .header .logo-img-active, body .header .logo-img-active {
       margin-top: 1em !important; }
     html #title-responsive, body #title-responsive {
@@ -127,9 +120,11 @@
       right: 12%;
       top: 15%; }
     html #seaweed, body #seaweed {
-      top: 335%;
-      max-width: 35%;
-      left: 20%; }
+      width: 120px;
+      top: 150px; }
+    html #conch, body #conch {
+      width: 150px;
+      top: 100px; }
     html .section-head, body .section-head {
       font-size: 40px; }
     html .content, body .content {
@@ -184,9 +179,6 @@
       .footer .contact .contact-list {
         display: inline; } }
 @media only screen and (min-width: 641px) and (max-width: 961px) {
-  #seaweed, #conch {
-    display: none; }
-
   /* tablet, landscape iPad, lo-res laptops ands desktops */
   html, body {
     z-index: -2;
@@ -217,9 +209,10 @@
       right: 12%;
       top: 5%; }
     html #seaweed, body #seaweed {
-      top: 157%;
-      max-width: 20%;
-      left: 8%; }
+      top: 320px; }
+    html #conch, body #conch {
+      top: 250px;
+      left: 350px; }
     html .section-head, body .section-head {
       font-size: 40px; }
     html .content, body .content {
@@ -268,9 +261,6 @@
         html .footer .contact .contact-list, body .footer .contact .contact-list {
           display: inline; } }
 @media only screen and (min-width: 961px) and (max-width: 1025px) {
-  #seaweed, #conch {
-    display: none; }
-
   /* big landscape tablets, laptops, and desktops */
   html, body {
     z-index: -2;
@@ -304,6 +294,13 @@
       top: 157%;
       max-width: 20%;
       left: 8%; }
+    html #seaweed, body #seaweed {
+      top: 200px;
+      left: 25%;
+      width: 300px; }
+    html #conch, body #conch {
+      left: 200px;
+      width: 150px; }
     html .section-head, body .section-head {
       font-size: 40px; }
     html .content, body .content {

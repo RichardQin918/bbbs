@@ -46,11 +46,11 @@
     right: 12%;
     top: 15%;
   }
-  #seaweed {
-    top: 335%;
-    max-width: 35%;
-    left: 20%;
-  }
+  // #seaweed {
+  //   top: 335%;
+  //   max-width: 35%;
+  //   left: 20%;
+  // }
   .section-head {
     font-size: 40px;
   }
@@ -128,9 +128,6 @@
 }
 
 @media only screen and (min-width: 320px) and (max-width: 481px) {
-  #seaweed, #conch {
-    display: none;
-  }
   /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
   html, body {
     // background-image: url("../../public/img/background_mobile.jpg");
@@ -141,7 +138,7 @@
     .logo-img {
 	      margin-top: 1em;
 	      width: 12em;
-	      height: 2em;
+	      height: 1.5em;
 	}
 	    .logo-img-active {
 	      margin-top: 1em !important;
@@ -175,9 +172,12 @@
     top: 15%;
   }
   #seaweed {
-    top: 335%;
-    max-width: 35%;
-    left: 20%;
+    width: 120px;
+    top: 150px;
+  }
+  #conch {
+    width: 150px;
+    top: 100px;
   }
   .section-head {
     font-size: 40px;
@@ -254,9 +254,6 @@
 }
 
 @media only screen and (min-width: 641px) and (max-width: 961px) {
-  #seaweed, #conch {
-    display: none;
-  }
   /* tablet, landscape iPad, lo-res laptops ands desktops */
   html, body {
     // background-image: url("../../public/img/background_tablet.jpg");
@@ -297,9 +294,11 @@
       top: 5%;
     }
     #seaweed {
-      top: 157%;
-      max-width: 20%;
-      left: 8%;
+      top: 320px;
+    }
+    #conch {
+      top: 250px;
+      left: 350px;
     }
     .section-head {
       font-size: 40px;
@@ -373,9 +372,6 @@
 }
 
 @media only screen and (min-width: 961px) and (max-width: 1025px) {
-  #seaweed, #conch {
-    display: none;
-  }
   /* big landscape tablets, laptops, and desktops */
   html, body {
     // background-image: url("../../public/img/background_tablet.jpg");
@@ -419,6 +415,15 @@
       top: 157%;
       max-width: 20%;
       left: 8%;
+    }
+    #seaweed {
+      top: 200px;
+      left: 25%;
+      width: 300px;
+    }
+    #conch {
+      left: 200px;
+      width: 150px;
     }
     .section-head {
       font-size: 40px;

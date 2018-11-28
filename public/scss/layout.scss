@@ -685,10 +685,10 @@ fieldset[disabled] .btn-theme {
 }
 
 #conch {
-  position: absolute;
-  max-width: 26%;
-  right: 4%;
-  top: 294%;
+  position: relative;
+  width: 300px;
+  top: 150px;
+  left: 40%;
   z-index: 1;
 }
 
@@ -700,10 +700,10 @@ fieldset[disabled] .btn-theme {
 }
 
 #seaweed {
-  position: absolute;
-  max-width: 15%;
-  left: 10%;
-  top: 414%;
+  width: 200px;
+  position: relative;
+  top: 250px;
+  left: 25%;
   z-index: 1;
 }
 
