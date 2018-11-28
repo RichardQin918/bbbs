@@ -2,7 +2,7 @@
 baby by the sea
 
 # install 
-git clone 
+git clone https://github.com/RichardQin918/bbbs.git
 
 # change css through scss
 go to public directory and type in 
