@@ -148,7 +148,20 @@ var Index = function() {
         // })
     }
 
-    var handleEmail = function() {
+    var handleMobile = function() {
+        var $window = $(window)
+        function resize() {
+            if ($window.width() < 991) {
+                $('.pc').hide()
+                $('.mobile').show()
+            } else {
+                $('.mobile').hide()
+                $('.pc').show()
+            }
+        }
+        $window
+            .resize(resize)
+            .trigger('resize')
 
     }
     
@@ -163,6 +176,7 @@ var Index = function() {
             });
             handleAOS();
             handleMoving();
+            handleMobile();
         }
     };
 }();
