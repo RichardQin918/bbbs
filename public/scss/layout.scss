@@ -676,7 +676,7 @@ fieldset[disabled] .btn-theme {
   }
 }
 
-#conch {
+#conch, #conch2 {
   position: relative;
   width: 300px;
   top: 150px;
@@ -691,7 +691,7 @@ fieldset[disabled] .btn-theme {
   top: 20%;
 }
 
-#seaweed {
+#seaweed, #seaweed2 {
   width: 200px;
   position: relative;
   top: 250px;
@@ -699,7 +699,7 @@ fieldset[disabled] .btn-theme {
   z-index: 1;
 }
 
-#seaweed_content {
+#seaweed_content, #seaweed_content2 {
   width: 100%;
   position: relative;
 }
@@ -790,7 +790,7 @@ fieldset[disabled] .btn-theme {
 ------------------------------------------------------------------*/
 
 .about {
-  line-height: 1.8;
+  line-height: 1.5;
   text-align: center;
   img {
     position: absolute;

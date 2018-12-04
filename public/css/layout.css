@@ -552,7 +552,7 @@ fieldset[disabled] .btn-theme {
   #fish-top svg {
     width: 50%; }
 
-#conch {
+#conch, #conch2 {
   position: relative;
   width: 300px;
   top: 150px;
@@ -565,14 +565,14 @@ fieldset[disabled] .btn-theme {
   right: 22%;
   top: 20%; }
 
-#seaweed {
+#seaweed, #seaweed2 {
   width: 200px;
   position: relative;
   top: 250px;
   left: 25%;
   z-index: 1; }
 
-#seaweed_content {
+#seaweed_content, #seaweed_content2 {
   width: 100%;
   position: relative; }
 
@@ -641,7 +641,7 @@ fieldset[disabled] .btn-theme {
     [sections]
 ------------------------------------------------------------------*/
 .about {
-  line-height: 1.8;
+  line-height: 1.5;
   text-align: center; }
   .about img {
     position: absolute;

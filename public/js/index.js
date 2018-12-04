@@ -52,11 +52,9 @@ var Index = function() {
 
     var handleSlide = function() {
         jQuery(document).ready(function ($) {
-            $('#checkbox').change(function(){
               setInterval(function () {
                   moveRight();
               }, 3000);
-            });
             
               var slideCount = $('#slider ul li').length;
               var slideWidth = $('#slider ul li').width();
@@ -123,6 +121,14 @@ var Index = function() {
 
         var conch = bodymovin.loadAnimation({
             container: document.getElementById('conch'),
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            path: 'public/js/animation/conch/data.json'
+        })
+
+        var conch2 = bodymovin.loadAnimation({
+            container: document.getElementById('conch2'),
             renderer: 'svg',
             loop: true,
             autoplay: true,

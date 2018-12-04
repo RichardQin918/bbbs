@@ -1,7 +1,4 @@
 @media only screen and (max-width: 320px) {
-  #seaweed, #conch {
-    display: none;
-  }
   /* smartphones, iPhone, portrait 480x320 phones */
   html, body {
     // background-image: url("../../public/img/background_mobile.jpg");
@@ -35,7 +32,7 @@
   .banner .banner-btn {
     background-color: #69d0fc;
     color: #fff;
-    top: 0px;
+    top: 220px;
     border: solid thin #69d0fc;
   }
   #fish-top {
@@ -46,7 +43,7 @@
     right: 12%;
     top: 15%;
   }
-  // #seaweed {
+  // #seaweed, #seaweed2 {
   //   top: 335%;
   //   max-width: 35%;
   //   left: 20%;
@@ -127,7 +124,7 @@
   
 }
 
-@media only screen and (min-width: 320px) and (max-width: 481px) {
+@media only screen and (min-width: 321px) and (max-width: 481px) {
   /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
   html, body {
     // background-image: url("../../public/img/background_mobile.jpg");
@@ -138,31 +135,37 @@
     .logo-img {
 	      margin-top: 1em;
 	      width: 12em;
-	      height: 1.5em;
+	      height: 1.6em;
 	}
 	    .logo-img-active {
 	      margin-top: 1em !important;
 	    }
 	 }
   #title-responsive {
-    font-size: 30px;
+    font-size: 50px;
     color: #fff;
     top: 0px;
+    z-index: 1;
   }
-  .banner .banner-head {
-    height: 110px;
+  .banner {
+    .banner-head {
+      height: 110px;
+    }
+    .banner-btn {
+      background-color: #69d0fc;
+      color: #fff;
+      top: 330px;
+      border: solid thin #69d0fc;
+      font-size: 30px;
+    }
   }
+  
   .btn-theme-bg {
     font-size: 20px;
     padding: 10px 20px;
     opacity: 1;
   }
-  .banner .banner-btn {
-    background-color: #69d0fc;
-    color: #fff;
-    top: 0px;
-    border: solid thin #69d0fc;
-  }
+  
   #fish-top {
     max-width: 100%;
   }
@@ -171,11 +174,11 @@
     right: 12%;
     top: 15%;
   }
-  #seaweed {
+  #seaweed, #seaweed2 {
     width: 120px;
     top: 150px;
   }
-  #conch {
+  #conch, #conch2 {
     width: 150px;
     top: 100px;
   }
@@ -224,7 +227,7 @@
         padding: 50px;
       }
       .right-beach, .left-beach {
-        min-height: 370px;
+        min-height: 400px;
         height: 100%;
       }
     }
@@ -293,10 +296,10 @@
       right: 12%;
       top: 5%;
     }
-    #seaweed {
+    #seaweed, #seaweed2 {
       top: 320px;
     }
-    #conch {
+    #conch, #conch2 {
       top: 250px;
       left: 350px;
     }
@@ -411,17 +414,17 @@
       right: 12%;
       top: 5%;
     }
-    #seaweed {
+    #seaweed, #seaweed2 {
       top: 157%;
       max-width: 20%;
       left: 8%;
     }
-    #seaweed {
+    #seaweed, #seaweed2 {
       top: 200px;
       left: 25%;
       width: 300px;
     }
-    #conch {
+    #conch, #conch2 {
       left: 200px;
       width: 150px;
     }
@@ -490,9 +493,6 @@
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1281px) {
-  #seaweed, #conch {
-    display: none;
-  }
   /* hi-res laptops and desktops */
   
 }
