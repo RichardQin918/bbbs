@@ -31,6 +31,13 @@
       max-width: 30%;
       right: 12%;
       top: 15%; }
+    html #seaweed, html #seaweed2, body #seaweed, body #seaweed2 {
+      top: 120px;
+      max-width: 35%;
+      left: 20%; }
+    html #conch, html #conch2, body #conch, body #conch2 {
+      width: 150px;
+      top: 100px; }
     html .section-head, body .section-head {
       font-size: 40px; }
     html .content, body .content {
