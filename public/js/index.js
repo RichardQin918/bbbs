@@ -168,7 +168,16 @@ var Index = function() {
         $window
             .resize(resize)
             .trigger('resize')
+    }
 
+    var handleToggle = function() {
+      $('.nav-item-child').on('click', function() {
+        $('.navbar-toggle').trigger('click');
+      })
+    }
+
+    var handleEmail = function() {
+      
     }
     
     return {
@@ -183,6 +192,7 @@ var Index = function() {
             handleAOS();
             handleMoving();
             handleMobile();
+            handleToggle();
         }
     };
 }();
